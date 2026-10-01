@@ -136,7 +136,7 @@ const itemGroups = computed<MoreItemGroup[]>(() => {
           onClick: cycleTheme,
           value: THEME_META[currentTheme.value].label,
         },
-        { label: 'Log out', icon: 'lucide-log-out', onClick: () => session.logout.submit() },
+        { label: 'Sign out', icon: 'lucide-log-out', onClick: () => session.logout.submit() },
       ],
     },
   ]
